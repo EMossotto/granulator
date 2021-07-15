@@ -107,6 +107,11 @@ available in *granulator*.
         install.packages("BiocManager")
     BiocManager::install("granulator")
 
+or for the latest version directly from GitHub:
+
+    library(devtools)
+    install_github("xanibas/granulator")
+
 The package can be loaded using:
 
     library(granulator)
